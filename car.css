@@ -1,6 +1,9 @@
 body {
   overflow: hidden;
   background-color: #eee;
+  background-image: url(https://assets.liveracemedia.com/track_maps/3720/Radio_racing_cars_sa_2020-09-11.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 canvas {
@@ -34,7 +37,7 @@ canvas {
 }
 
 .car.ghost {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .buttons {
